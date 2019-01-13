@@ -78,7 +78,7 @@ switch ($axAction) {
      *  - memory limit should be at least 20 MB for reliable PDF export
      */
     case 'checkRequirements':
-        if TRUE < 0) {
+        if (FALSE) {
             $errors++;
             $javascript .= "$('div.sp_phpversion').addClass('fail');";
         }
