@@ -26,6 +26,9 @@ ob_start();
 
 require_once 'includes/basics.php';
 
+$kga = Kimai_Registry::getConfig();
+$database = Kimai_Registry::getDatabase();
+
 $view = new Kimai_View();
 
 $authPlugin = Kimai_Registry::getAuthenticator();
