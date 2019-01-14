@@ -196,7 +196,7 @@ switch ($axAction) {
         $database->connect($hostname, null, $username, $password, true);
         $conn = $database->getConnectionHandler();
 
-        $query = "CREATE DATABASE `" . $databaseName . "` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci";
+        $query = "CREATE DATABASE `" . $databaseName . "` IF NOT EXISTS DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci";
         $result = $conn->Query($query);
 
         if ($result !== false) {
