@@ -1,4 +1,5 @@
 <?php
+echo "<h1>ladida</h1>";
 /**
  * This file is part of
  * Kimai - Open Source Time Tracking // https://www.kimai.org
