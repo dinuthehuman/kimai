@@ -14,7 +14,7 @@ set_include_path(
 //require_once WEBROOT . 'libraries/autoload.php';
 
 echo '<script type="text/javascript">current=60;</script>';
-
+echo 'naja';
 $hostname = isset($_REQUEST['hostname']) ? $_REQUEST['hostname'] : 'localhost';
 $username = isset($_REQUEST['username']) ? $_REQUEST['username'] : '';
 $password = isset($_REQUEST['password']) ? $_REQUEST['password'] : '';
