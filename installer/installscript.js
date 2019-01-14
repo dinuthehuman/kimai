@@ -114,6 +114,7 @@ function check_system_requirements() {
 	$.post("processor.php", {
 		axAction: 'checkRequirements'
 	}, function(data) {
+		console.log(data);
 		eval(data);
 	});
 }
