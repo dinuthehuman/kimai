@@ -47,12 +47,12 @@ if (!file_exists(WEBROOT . 'includes/autoconf.php')) {
 
 ini_set('display_errors', '0');
 
-require_once WEBROOT . 'libraries/autoload.php';
+//require_once WEBROOT . 'libraries/autoload.php';
 require_once WEBROOT . 'includes/func.php';
 
 // The $kga (formerly Kimai Global Array) is initialized here
 // It was replaced by an proxy object, but until refactored it is still used as array in a lot of places
-require_once WEBROOT . 'includes/autoconf.php';
+//require_once WEBROOT . 'includes/autoconf.php';
 $kga = new Kimai_Config([
     'server_prefix' => $server_prefix,
     'server_hostname' => $server_hostname,

@@ -19,7 +19,7 @@
 
 defined('WEBROOT') || define('WEBROOT', dirname(__FILE__) . DIRECTORY_SEPARATOR);
 
-require_once WEBROOT . 'libraries/autoload.php';
+//require_once WEBROOT . 'libraries/autoload.php';
 
 $kga = Kimai_Registry::getConfig();
 
