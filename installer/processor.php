@@ -111,7 +111,7 @@ switch ($axAction) {
         if (empty($javascript)) {
             $javascript = "$('#installsteps button.sp-button').hide();";
         }
-        var_dump($errors);
+
         if (!$errors) {
             $javascript .= "$('#installsteps button.proceed').show();";
         }
